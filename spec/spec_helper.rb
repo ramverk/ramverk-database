@@ -19,6 +19,7 @@ end
 # Require support (helper) modules
 Dir["./spec/support/**/*.rb"].each { |f| require f }
 
+require "ramverk"
 require "ramverk/database"
 
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
